@@ -9,10 +9,9 @@ db = SQLClass(user, password, host, port, database)
 
 
 
-
 search_results = db.search(Person, Person.firstname.like("C%"))
 
-
+print("test")
 
 # jb1 = Job("pk412", "developer", 24224.22)
 # p3 = Person(3, "Carl", "Morada", 22, "M", "pk412")
